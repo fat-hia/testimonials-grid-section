@@ -1,0 +1,127 @@
+/* GENRAL */
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html{
+  font-size: 16px;
+}
+body{
+  font-family: 'Barlow Semi Condensed', Sans-serif;
+  font-weight: 500;
+  font-size: 1rem;
+  text-align: left;
+  line-height: 1.5rem;
+  color: #fff;
+  background-color: hsl(210, 46%, 95%);
+  padding: 60px 24px;
+}
+main{
+  width: 100%;
+  max-width: 1200px;
+  margin: 60px auto 96px auto;
+  position: relative;
+}
+
+/* STYLES */
+
+/* Testimonials */
+
+.testimonial{
+  border-radius: 10px;
+  padding: 28px;
+  margin-bottom: 20px;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.1);
+}
+.row.first .big{
+  background: url('./images/bg-pattern-quotation.svg') no-repeat;
+  background-position: top 36px right 72px;
+  background-color: hsl(263, 55%, 52%);
+}
+.row.first .small{
+  background-color: hsl(217, 19%, 35%);
+}
+.row.second .small, .column{
+  background-color: hsl(0, 0%, 100%);
+  color: hsl(219, 29%, 14%);
+}
+.row.second .big{
+  background-color: hsl(219, 29%, 14%);
+}
+.customer img{
+  width: 54px;
+  height: 54px;
+  border-radius: 100%;
+  border: 3px solid rgba(255, 255, 255, 0.2);
+}
+img.white, .column img{
+  border-color: hsla(219, 29%, 14%, 30%);
+}
+.name{
+  position: relative;
+  top: -54px;
+  left: 66px;
+}
+.title{
+  opacity: 50%;
+  position: relative;
+  top: -60px;
+  left: 66px;
+}
+.review-body{
+  opacity: 70%;
+  margin-top: 24px;
+}
+.review-head{
+  margin-top: -28px;
+  line-height: 1.7rem;
+}
+
+/* RESPONSIVE */
+
+@media screen and (min-width: 1200px){
+  .row{
+    width: 75%;
+    position: relative;
+  }
+  .column{
+    width: 23.5%;
+  }
+  .big{
+    width: 68%;
+  }
+  .small{
+    width: 30%;
+  }
+  .right{
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+}
+
+/* Attribution */
+
+.attribution{
+  margin-bottom: 48px;
+  font-size: 1.3rem;
+  text-align: center;
+  color: hsl(219, 29%, 14%);
+}
+.attribution p{
+  margin-bottom: 12px;
+}
+.coder{
+  font-size: 1.6rem;
+  font-family: 'Arizonia', cursive;
+}
+a{
+  text-decoration: none;
+  color: hsl(219, 29%, 14%);
+  
+}
+a:hover{
+  color:hsl(263, 55%, 52%);
+}
