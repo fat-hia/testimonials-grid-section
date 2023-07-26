@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://github.com/fat-hia/testimonials-grid-section)
+- Live Site URL: [Add live site URL here](https://fat-hia.github.io/testimonials-grid-section/)
 
 ## My process
 
@@ -42,9 +42,9 @@ Users should be able to:
 
 ### What I learned
 
-Despite being a css grid style I solved this challenge using the old way by postioning and offseting value. I plan to provide another two solutions with flexbox and grid to experince all techniques and appreciate the best one (Don't tell anyone 🤫 it is the Grid solution)
+Despite being a css grid style I solved this challenge using the old way by postioning and offseting value. I plan to provide another two solutions with flexbox and grid to experince all techniques and appreciate the best one (Don't tell anyone 🤫 it is CSS Grid)
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Website - [Fathia Gamal](https://github.com/fat-hia)
+- Frontend Mentor - [@fat-hia](https://www.frontendmentor.io/profile/fat-hia)
